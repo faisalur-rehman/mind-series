@@ -3,6 +3,7 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Signup from "./components/Signup/Signup";
 import Login from "./components/Login/Login";
 import Account from "./components/Account/Account";
+import SignupEmail from "./components/Signup/EmailSignup/SignupEmail";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           </Route>
           <Route path="/sign-up">
             <Signup />
+          </Route>
+          <Route path="/sign-up-email">
+            <SignupEmail />
           </Route>
           <Route path="/account">
             <Account />
