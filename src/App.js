@@ -4,6 +4,7 @@ import Signup from "./components/Signup/Signup";
 import Login from "./components/Login/Login";
 import Account from "./components/Account/Account";
 import SignupEmail from "./components/Signup/EmailSignup/SignupEmail";
+import Affirmation from "./components/Affirmation/Affirmation";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/account">
             <Account />
+          </Route>
+          <Route path="/affirmation">
+            <Affirmation />
           </Route>
         </Switch>
       </Router>

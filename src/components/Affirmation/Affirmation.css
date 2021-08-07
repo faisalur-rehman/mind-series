@@ -1,0 +1,100 @@
+.container {
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 0px 15px;
+}
+.affirmation-header {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.affirmation-header .affirmation-header-left a img {
+  width: 30px;
+  height: 30px;
+}
+.affirmation-header .affirmation-header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.affirmation-header .affirmation-header-right p {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.affirmation-header .affirmation-header-right .account {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-right: 10px;
+}
+.affirmation-header .affirmation-header-right .journal {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-right: 10px;
+}
+.affirmation-header .affirmation-header-right .signout {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-right: 10px;
+}
+.affirmation-header .affirmation-header-right img {
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+}
+.affirmation-body {
+  border-bottom: 1px solid #ffffff;
+  transform: rotate(0.23deg);
+}
+.affirmation-body .affirmation-button {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.affirmation-body .affirmation-button button {
+  color: #ffffff;
+  background-color: #e89c31;
+  text-transform: uppercase;
+  border-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid transparent;
+  padding: 10px 30px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  height: 52px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+.affirmation-body .affirmation-text h6 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.affirmation-body .affirmation-text p {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+@media screen and (max-width: 456px) {
+  .affirmation-header .affirmation-header-right p {
+    display: none;
+  }
+}
