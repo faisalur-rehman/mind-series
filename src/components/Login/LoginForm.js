@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../Assets/images/logo.png";
 import "./Login.css";
 
@@ -25,12 +26,12 @@ const LoginForm = () => {
             </div>
           </form>
           <div class="text-section">
-            <a href="./reset_password.html">
+            <Link to="/reset-password">
               <p>Forgot Password</p>
-            </a>
-            <a href="./signup.html">
-              <p>Not a member yet?</p>
-            </a>
+            </Link>
+            <Link to="/sign-up">
+              <p>Not a member yet? Signup</p>
+            </Link>
           </div>
         </div>
       </div>
