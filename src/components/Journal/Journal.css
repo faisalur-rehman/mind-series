@@ -1,0 +1,238 @@
+.container {
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 0px 15px;
+}
+.journal-header {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.journal-header .journal-header-left a img {
+  width: 30px;
+  height: 30px;
+}
+.journal-header .journal-header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.journal-header .journal-header-right p {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.journal-header .journal-header-right .account {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-right: 10px;
+}
+.journal-header .journal-header-right .affirmation {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-right: 10px;
+}
+.journal-header .journal-header-right .signout {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-right: 10px;
+}
+.journal-header .journal-header-right img {
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+}
+
+.journal-body .journal-button {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.journal-body .journal-button button {
+  color: #ffffff;
+  background-color: #e89c31;
+  text-transform: uppercase;
+  border-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid transparent;
+  padding: 10px 30px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  height: 52px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+.journal-date {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.journal-date h5 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.journal-date form .input-field {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.journal-date form .input-field label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-right: 15px;
+}
+.journal-date form .input-field input {
+  padding: 14px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  border: 1px solid #152238;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: none;
+  height: 52px;
+  background: #ffffff;
+}
+
+.journal-form form .journal-form_fields {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.journal-form form .journal-form_fields .input_field {
+  width: 100%;
+}
+.journal-form form .journal-form_fields label {
+  width: 100%;
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.journal-form form .journal-form_fields .input_field .input_field_inner,
+.input_field_inner_2 {
+  display: flex;
+  justify-content: space-between;
+}
+.journal-form form .journal-form_fields .input_field .input_field_inner input,
+.input_field_inner_2 input {
+  padding: 14px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  border: 1px solid #152238;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 20px;
+  outline: none;
+  width: 93%;
+  background: #ffffff;
+}
+.input_field_inner_2 input {
+  padding: 14px;
+  padding-bottom: 200px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  border: 1px solid #152238;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 20px;
+  outline: none;
+  width: 93%;
+  background: #ffffff;
+}
+
+.journal-form form .journal-form_fields .input_field .input_field_inner .save,
+.input_field_inner_2 .save {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 42px;
+  height: 58px;
+  color: #fff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.input_field_inner_2 .save {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 42px;
+  height: 58px;
+  color: #fff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 182px;
+}
+.login_section .login_form form .login_fields .input_field input:focus {
+  box-shadow: 0 0 0 0.2rem #152238;
+  outline: 1px solid #152238;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  .journal-date {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .journal-date form .input-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 15px;
+  }
+  .journal-date form .input-field input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 456px) {
+  .journal-header .journal-header-right p {
+    display: none;
+  }
+}
+@media screen and (max-width: 315px) {
+  .journal-body .journal-button button {
+    letter-spacing: 2px;
+    font-size: 18px;
+  }
+}
