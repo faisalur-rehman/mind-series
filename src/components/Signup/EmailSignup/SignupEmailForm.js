@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../../Assets/images/logo.png";
 
-const SignupEmailForm = () => {
+const SignupEmailForm = ({ handleSubmit }) => {
   return (
     <section class="signup_section">
       <div class="signup_container">
@@ -10,7 +11,7 @@ const SignupEmailForm = () => {
         </a>
         <div class="signup_form">
           <h3>Sign up</h3>
-          <form action="./Account.html">
+          <form onSubmit={handleSubmit}>
             <div class="signup_fields">
               <div class="input_field">
                 <input type="email" placeholder="Email" />
@@ -19,7 +20,7 @@ const SignupEmailForm = () => {
                 <input type="password" placeholder="Set Password" />
               </div>
               <div class="input_field">
-                <input type="password" placeholder="Confrim Password" />
+                <input type="password" placeholder="Confirm Password" />
               </div>
               <div class="submit_btn">
                 <button type="submit">Next</button>
@@ -29,9 +30,9 @@ const SignupEmailForm = () => {
           <div class="form-bottom">
             <p>
               Already a User?
-              <a href="#1">
+              <Link to="/">
                 <span>Login Here</span>
-              </a>
+              </Link>
             </p>
           </div>
         </div>
