@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../../Assets/images/logo.png";
 import "./Login.css";
 
-const LoginForm = () => {
+const LoginForm = ({ handleSubmit }) => {
   return (
     <section class="login_section">
       <div class="login_container">
@@ -12,7 +12,7 @@ const LoginForm = () => {
         </a>
         <div class="login_form">
           <h3>Sign In</h3>
-          <form action="./journal.html">
+          <form onSubmit={handleSubmit}>
             <div class="login_fields">
               <div class="input_field">
                 <input type="email" placeholder="Email/UserName" />
