@@ -2,8 +2,14 @@ import React from "react";
 import iconSignOut from "../../Assets/images/icons8-sign-out-30-2 2.png";
 import iconCustomer from "../../Assets/images/icons8-customer-50 1.png";
 import iconNotification from "../../Assets/images/icons8-notification-30 1.png";
+import { Link, useHistory } from "react-router-dom";
 
 const JournalHeader = () => {
+  const history = useHistory();
+  function handleLogout() {
+    localStorage.removeItem("token");
+    history.push("/");
+  }
   return (
     <header>
       <div class="container">
@@ -11,28 +17,21 @@ const JournalHeader = () => {
           <div class="journal-header-left"></div>
           <div class="journal-header-right">
             <div class="account">
-              <a href="./Account.html">
+              <Link to="/account">
                 <img src={iconCustomer} alt="customer" />
-              </a>
-              <a href="./Account.html">
+              </Link>
+              <Link to="/account">
                 <p>Account</p>
-              </a>
+              </Link>
             </div>
-            <div class="affirmation">
-              <a href="./affirmation.html">
-                <img src={iconNotification} alt="Affirmation" />
-              </a>
-              <a href="./affirmation.html">
-                <p>Affirmation</p>
-              </a>
-            </div>
-            <div class="signout">
-              <a href="./SignIn.html">
+
+            <div class="signout" onClick={handleLogout}>
+              <Link>
                 <img src={iconSignOut} alt="Sign Out" />
-              </a>
-              <a href="./SignIn.html">
+              </Link>
+              <Link>
                 <p>Sign Out</p>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

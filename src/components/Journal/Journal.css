@@ -88,12 +88,12 @@
   letter-spacing: -0.02em;
   color: #ffffff;
 }
-.journal-date form .input-field {
+.journal-date .input-field {
   display: flex;
   align-content: center;
   align-items: center;
 }
-.journal-date form .input-field label {
+.journal-date .input-field label {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -101,7 +101,7 @@
   color: #ffffff;
   margin-right: 15px;
 }
-.journal-date form .input-field input {
+.journal-date .input-field input {
   padding: 14px;
   font-weight: normal;
   font-size: 20px;
@@ -117,16 +117,16 @@
   background: #ffffff;
 }
 
-.journal-form form .journal-form_fields {
+.journal-form .journal-form_fields {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.journal-form form .journal-form_fields .input_field {
+.journal-form .journal-form_fields .input_field {
   width: 100%;
 }
-.journal-form form .journal-form_fields label {
+.journal-form .journal-form_fields label {
   width: 100%;
   display: block;
   font-style: normal;
@@ -136,12 +136,12 @@
   letter-spacing: -0.02em;
   color: #ffffff;
 }
-.journal-form form .journal-form_fields .input_field .input_field_inner,
+.journal-form .journal-form_fields .input_field .input_field_inner,
 .input_field_inner_2 {
   display: flex;
   justify-content: space-between;
 }
-.journal-form form .journal-form_fields .input_field .input_field_inner input,
+.journal-form .journal-form_fields .input_field .input_field_inner input,
 .input_field_inner_2 input {
   padding: 14px;
   font-weight: normal;
@@ -176,7 +176,7 @@
   background: #ffffff;
 }
 
-.journal-form form .journal-form_fields .input_field .input_field_inner .save,
+.journal-form .journal-form_fields .input_field .input_field_inner .save,
 .input_field_inner_2 .save {
   display: flex;
   flex-direction: column;
@@ -202,7 +202,7 @@
   border-radius: 10px;
   margin-top: 182px;
 }
-.login_section .login_form form .login_fields .input_field input:focus {
+.login_section .login_form .login_fields .input_field input:focus {
   box-shadow: 0 0 0 0.2rem #152238;
   outline: 1px solid #152238;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -214,14 +214,14 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .journal-date form .input-field {
+  .journal-date .input-field {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     align-content: flex-start;
     margin-top: 15px;
   }
-  .journal-date form .input-field input {
+  .journal-date .input-field input {
     width: 100%;
   }
 }

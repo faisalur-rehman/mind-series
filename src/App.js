@@ -7,6 +7,7 @@ import SignupEmail from "./components/Signup/EmailSignup/SignupEmail";
 import Affirmation from "./components/Affirmation/Affirmation";
 import ResetPassword from "./components/ResetPassword/ResetPassword";
 import Journal from "./components/Journal/Journal";
+import ForgotPassword from "./components/ForgotPassword/ForgotPassword";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/affirmation">
             <Affirmation />
+          </Route>
+          <Route path="/forgot-password">
+            <ForgotPassword />
           </Route>
         </Switch>
       </Router>

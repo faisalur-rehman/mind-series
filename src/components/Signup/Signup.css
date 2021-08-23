@@ -47,23 +47,23 @@
   font-weight: 600;
   line-height: 43.74px;
 }
-.signup_section .signup_form form .signup_fields {
+.signup_section .signup_form .signup_fields {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.signup_section .signup_form form .signup_fields .input_field {
+.signup_section .signup_form .signup_fields .input_field {
   width: 100%;
 }
-.signup_section .signup_form form .signup_fields .name_field {
+.signup_section .signup_form .signup_fields .name_field {
   width: 100%;
   display: grid;
   grid-template-columns: auto auto;
   gap: 0px 15px;
 }
 
-.signup_section .signup_form form .signup_fields .name_field input {
+.signup_section .signup_form .signup_fields .name_field input {
   padding: 14px;
   font-weight: normal;
   font-size: 20px;
@@ -80,12 +80,12 @@
   height: 52px;
   background: #ffffff;
 }
-.signup_section .signup_form form .signup_fields .name_field input:focus {
+.signup_section .signup_form .signup_fields .name_field input:focus {
   box-shadow: 0 0 0 0.2rem #152238;
   outline: 1px solid #152238;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.signup_section .signup_form form .signup_fields .input_field input {
+.signup_section .signup_form .signup_fields .input_field input {
   padding: 14px;
   font-weight: normal;
   font-size: 20px;
@@ -102,19 +102,19 @@
   height: 52px;
   background: #ffffff;
 }
-.signup_section .signup_form form .signup_fields .input_field input:focus {
+.signup_section .signup_form .signup_fields .input_field input:focus {
   box-shadow: 0 0 0 0.2rem #152238;
   outline: 1px solid #152238;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.signup_section .signup_form form .signup_fields .submit_btn {
+.signup_section .signup_form .signup_fields .submit_btn {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
   width: 100%;
 }
-.signup_section .signup_form form .signup_fields .submit_btn button {
+.signup_section .signup_form .signup_fields .submit_btn button {
   color: #ffffff;
   background-color: #e89c31;
   text-transform: uppercase;
@@ -164,7 +164,7 @@
 
 /*mobile*/
 @media (max-width: 540px) {
-  .signup_section .signup_form form .signup_fields .name_field {
+  .signup_section .signup_form .signup_fields .name_field {
     grid-template-columns: auto;
   }
 }

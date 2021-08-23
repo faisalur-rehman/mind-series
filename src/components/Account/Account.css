@@ -98,23 +98,23 @@
   font-weight: 600;
   line-height: 43.74px;
 }
-.account_section .account_form form .account_fields {
+.account_section .account_form .account_fields {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.account_section .account_form form .account_fields .input_field {
+.account_section .account_form .account_fields .input_field {
   width: 100%;
 }
-.account_section .account_form form .account_fields .name_field {
+.account_section .account_form .account_fields .name_field {
   width: 100%;
   display: grid;
   grid-template-columns: auto auto;
   gap: 0px 15px;
 }
 
-.account_section .account_form form .account_fields .name_field input {
+.account_section .account_form .account_fields .name_field input {
   padding: 14px;
   font-weight: normal;
   font-size: 20px;
@@ -131,12 +131,12 @@
   height: 52px;
   background: #ffffff;
 }
-.account_section .account_form form .account_fields .name_field input:focus {
+.account_section .account_form .account_fields .name_field input:focus {
   box-shadow: 0 0 0 0.2rem #152238;
   outline: 1px solid #152238;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.account_section .account_form form .account_fields .input_field input {
+.account_section .account_form .account_fields .input_field input {
   padding: 14px;
   font-weight: normal;
   font-size: 20px;
@@ -153,19 +153,19 @@
   height: 52px;
   background: #ffffff;
 }
-.account_section .account_form form .account_fields .input_field input:focus {
+.account_section .account_form .account_fields .input_field input:focus {
   box-shadow: 0 0 0 0.2rem #152238;
   outline: 1px solid #152238;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.account_section .account_form form .account_fields .submit_btn {
+.account_section .account_form .account_fields .submit_btn {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
   width: 100%;
 }
-.account_section .account_form form .account_fields .submit_btn button {
+.account_section .account_form .account_fields .submit_btn button {
   color: #ffffff;
   background-color: #e89c31;
   text-transform: uppercase;
@@ -220,7 +220,7 @@
 
 /*mobile*/
 @media (max-width: 540px) {
-  .account_section .account_form form .account_fields .name_field {
+  .account_section .account_form .account_fields .name_field {
     grid-template-columns: auto;
   }
 }

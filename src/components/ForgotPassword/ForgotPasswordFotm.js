@@ -1,39 +1,23 @@
+import { Field } from "formik";
 import React from "react";
 import logo from "../../Assets/images/logo.png";
-import "./ResetPassword.css";
-import backTo from "../../Assets/images/icons8-back-to-50 1.png";
-import { Field } from "formik";
 import AppForm from "../AppForm/AppForm";
-import { Link } from "react-router-dom";
 
-const ResetPasswordForm = ({ handleSubmit, initialValues, data }) => {
+const ForgotPasswordForm = ({ handleSubmit, initialValues, data }) => {
   return (
-    <>
+    <div>
       <AppForm initialValues={initialValues} handleSubmit={handleSubmit}>
         <FormFields data={data} />
       </AppForm>
-    </>
+    </div>
   );
 };
 
-export default ResetPasswordForm;
-
+export default ForgotPasswordForm;
 function FormFields({ data }) {
   console.log("reset", data);
   return (
     <>
-      <header>
-        <div class="container">
-          <div class="reset-password-header">
-            <div class="header-left">
-              <Link to="/account">
-                <img src={backTo} alt="back-Icon" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </header>
-
       <section class="reset_password_section">
         <a href="#1">
           <img src={logo} alt="" />
@@ -48,10 +32,12 @@ function FormFields({ data }) {
             <div class="reset_password_fields">
               <div class="input_field">
                 <Field
-                  name="email"
-                  type="email"
-                  placeholder="Enter your email"
+                  name="verificationCode"
+                  placeholder="Enter your verfication code"
                 />
+              </div>
+              <div class="input_field">
+                <Field name="password" placeholder="Enter your new password" />
               </div>
               <p style={{ color: "white", margin: 10 }}>
                 {data && data.message}

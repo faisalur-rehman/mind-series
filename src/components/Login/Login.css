@@ -44,16 +44,16 @@
   font-weight: 600;
   line-height: 43.74px;
 }
-.login_section .login_form form .login_fields {
+.login_section .login_form .login_fields {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.login_section .login_form form .login_fields .input_field {
+.login_section .login_form .login_fields .input_field {
   width: 100%;
 }
-.login_section .login_form form .login_fields .input_field input {
+.login_section .login_form .login_fields .input_field input {
   padding: 14px;
   font-weight: normal;
   font-size: 20px;
@@ -70,19 +70,19 @@
   height: 52px;
   background: #ffffff;
 }
-.login_section .login_form form .login_fields .input_field input:focus {
+.login_section .login_form .login_fields .input_field input:focus {
   box-shadow: 0 0 0 0.2rem #152238;
   outline: 1px solid #152238;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.login_section .login_form form .login_fields .submit_btn {
+.login_section .login_form .login_fields .submit_btn {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
   width: 100%;
 }
-.login_section .login_form form .login_fields .submit_btn button {
+.login_section .login_form .login_fields .submit_btn button {
   color: #ffffff;
   background-color: #e89c31;
   text-transform: uppercase;
